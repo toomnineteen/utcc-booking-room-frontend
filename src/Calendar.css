@@ -1,0 +1,56 @@
+.react-calendar {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__prev-button,
+.react-calendar__navigation__next2-button,
+.react-calendar__navigation__next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-calendar__navigation__label {
+  font-size: 16px;
+}
+
+.react-calendar__month-view__weekdays {
+  border-bottom: none !important; /* เอาเส้นออก */
+}
+
+.react-calendar__tile {
+  border-bottom: 11px solid black; /* เส้นใต้แต่ละช่อง */
+}
+
+.react-calendar__month-view__days__day {
+  border-bottom: 11px solid black; /* เส้นใต้วัน */
+}
+
+.react-calendar__tile--active {
+  background-color: oklch(94.8% 0.028 342.258);
+  color: black;
+  border-radius: 2px;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background-color: oklch(94.8% 0.028 342.258);
+  color: black;
+  border-radius: 2px;
+  
+}
+
+.react-calendar__tile--now {
+  border-radius: 2px;
+  background-color: #ffff76;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: black;
+}

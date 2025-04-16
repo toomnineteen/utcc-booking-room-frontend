@@ -1,0 +1,19 @@
+ข้อมูลการจองที่จะเก็บ
+Booking room
+date
+timeSlot
+course
+- code
+- name
+- semester
+- faculty
+- teacher
+Bookingby
+- name
+- role
+location
+- room
+- building
+- seatMin
+- seatMax
+- remark
