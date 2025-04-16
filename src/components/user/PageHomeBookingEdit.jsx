@@ -43,7 +43,7 @@ const PageHomeBookingEdit = () => {
     seat_min: "",
     seat_max: "",
     remark: "",
-    bookigngBy: "",
+    bookingBy: "",
     createdAt: "",
     updatedAt: "",
   });
