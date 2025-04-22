@@ -184,7 +184,7 @@ const PageBookingRoom = () => {
                       <td>{room.semester}</td>
                       <td>{room.seat_min}</td>
                       <td>{room.seat_min}</td>
-                      <td>{room.bookigngBy}</td>
+                      <td>{room.bookingBy}</td>
                       <td>แก้ไข ลบ</td>
                     </tr>
                   ))}
